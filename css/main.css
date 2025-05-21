@@ -1,48 +1,56 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 175, 217);
-    margin: auto;
-    padding: 40px 20px;
-    display: flex;
-    justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #222;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-.container {
-    background-color: #ffff;
-    padding: 30px;
-    border-radius: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.emoji {
+  border: 1px solid #222;
+  border-radius: 8px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  background-color: #fff;
 }
 
-img {
-    border-radius: 12px;
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-    object-fit: cover;
-  }
-  
-  h1 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
-  }
-  
-  dl {
-    width: 100%;
-    line-height: 1.8;
-  }
-  
-  dt {
-    font-weight: bold;
-    color: #444;
-    margin-top: 10px;
-  }
-  
-  dd {
-    margin: 0 0 10px 0;
-    color: #666;
-  }
+.emoji h2 {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ccc;
+}
+
+.icon {
+  font-size: 4rem;
+  display: block;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.emoji p {
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.emoji a {
+  text-decoration: none;
+  background-color: #781BAA;
+  color: white;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.emoji a:hover {
+  background-color: #5e1288;
+}
